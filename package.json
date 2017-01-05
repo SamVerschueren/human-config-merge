@@ -1,0 +1,43 @@
+{
+  "name": "human-config-merge",
+  "version": "0.0.0",
+  "description": "Merge a config with a config template",
+  "license": "MIT",
+  "repository": "SamVerschueren/human-config-merge",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "config",
+    "configuration",
+    "conf",
+    "merge",
+    "template",
+    "human",
+    "readable",
+    "readability"
+  ],
+  "dependencies": {
+    "detect-indent": "^5.0.0",
+    "hjson": "^2.4.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "redent": "^2.0.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
